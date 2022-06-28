@@ -1,3 +1,6 @@
-function like(element){
-    element.innerText++;
+var el = document.querySelector(".btn")
+console.log(el)
+
+function like(el){
+    el.innerText++;
 }
