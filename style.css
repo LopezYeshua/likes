@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: normal;
+}
+
+.content-container {
+    width: 600px;
+    min-height: 600px;
+    padding: 50px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container {
+    background-color:transparent;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.btn {
+    padding: .5em 1em !important;
+    background-color: #ffd966;
+    box-shadow: 2px 2px 1px black;
+    color: black;
+    flex: 1;
+}
+
+.container h1 {
+    flex: 3;
+}
+
+.container p {
+    flex: 1;
+}
